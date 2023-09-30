@@ -44,7 +44,8 @@ class _HomeState extends State<Home> {
     for (var chic in userCollect.docs) {
       if (_Myuser.email == doc.data()["email"]) {
       setState(() {
-        take = doc.data()["name"];
+        take = doc.data()['name'];
+
       });
       }
     }
